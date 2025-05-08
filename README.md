@@ -52,9 +52,12 @@ The directory organization of the final data file should be as follows (task CRE
 ```
 
 ### Training & Evaluation
-Run the following commend to train the model and evaluate the results:
+Run the following command to train the model and evaluate the results (task Kinetics-Sounds as an example):
 ```shell
-python train_CREMA.py --config configs/cream.json
+cd KS
+python train-CL.py
+python train-SPL.py
+Note that 
 ```
 All the parameters have the same meaning as describe in our paper and you can simply config them in **src/config/config.yaml** or in command line.
 
