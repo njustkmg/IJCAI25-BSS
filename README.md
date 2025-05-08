@@ -20,6 +20,7 @@ Next, activate this env and install the dependencies from the requirements.txt:
 conda activate BSS
 
 pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
 pip install -r requirements.txt
 ```
 
@@ -55,19 +56,30 @@ The directory organization of the final data file should be as follows (task CRE
 Run the following command to train the model and evaluate the results (task Kinetics-Sounds as an example):
 ```shell
 cd KS
+
 python train-CL.py
+
 python train-SPL.py
-Note that 
 ```
-All the parameters have the same meaning as describe in our paper and you can simply config them in **src/config/config.yaml** or in command line.
+Note that CL and SPL  denote the proposed method with the heuristic scheduler and learning-based scheduler, respectively.
 
 ## Citation
 If you find the code useful for your research, please give us a star ⭐⭐⭐ and consider citing:
 ```
-@article{lang2025retrievalaugmented,
-  title={Retrieval-Augmented Dynamic Prompt Tuning for Incomplete Multimodal Learning},
-  author={Jian Lang and Zhangtao Cheng and Ting Zhong and Fan Zhou},
-  journal={arXiv preprint arXiv:2501.01120},
+@article{guan2025balanceaware,
+  author={Zhi{-}Hao Guan and
+          Qing{-}Yuan Jiang and
+          Yang Yang},
+  title={Balance-aware Sequence Sampling Makes Multimodal Learning Better},
+  booktitle={arXiv preprint arXiv:2501.01120},
   year={2025}
+}
+@inproceedings{guan2025balanceaware,
+  author       = {Zhi{-}Hao Guan and
+                  Qing{-}Yuan Jiang and
+                  Yang Yang},
+  title        = {Balance-aware Sequence Sampling Makes Multimodal Learning Better},
+  booktitle    = {IJCAI},
+  year         = {2025}
 }
 ```
