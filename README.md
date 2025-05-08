@@ -24,18 +24,13 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-### CREMA-D
-Download the dataset from this link: https://github.com/CheyneyComputerScience/CREMA-D
-### Kinetics-Sounds
-Download the dataset from this link: https://github.com/cvdfoundation/kinetics-dataset
-### Sarcasm
-Download the dataset from this link: https://github.com/feiLinX/Multi-modal-Sarcasm-Detection
-### Twitter15
-Download the dataset from this link: https://github.com/jefferyYu/TomBERT
-### NVGresutre
-Download the dataset from this link: https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
+Download the CREMA-D dataset from this link: https://github.com/CheyneyComputerScience/CREMA-D
+Download the Kinetics-Sounds dataset from this link: https://github.com/cvdfoundation/kinetics-dataset
+Download the Sarcasm dataset from this link: https://github.com/feiLinX/Multi-modal-Sarcasm-Detection
+Download the Twitter15 dataset from this link: https://github.com/jefferyYu/TomBERT
+Download the NVGresutre dataset from this link: https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
 
-The directory organization of the final data file should be as follows:
+The directory organization of the final data file should be as follows (task CREMA-D for an example):
 ```
 ├── CREMAD/
 │   ├── annotations/
@@ -54,4 +49,22 @@ The directory organization of the final data file should be as follows:
 │	│	├── 1001_DFA_ANG_XX.pkl
 │	│	├── 1001_DFA_DIS_XX.pkl
 │   ├── sound_preprocessing.py
+```
+
+### Training & Evaluation
+Run the following script to train the model and evaluate the results:
+```shell
+sh src/scripts/eval.sh
+```
+All the parameters have the same meaning as describe in our paper and you can simply config them in **src/config/config.yaml** or in command line.
+
+## Citation
+If you find the code useful for your research, please give us a star ⭐⭐⭐ and consider citing:
+```
+@article{lang2025retrievalaugmented,
+  title={Retrieval-Augmented Dynamic Prompt Tuning for Incomplete Multimodal Learning},
+  author={Jian Lang and Zhangtao Cheng and Ting Zhong and Fan Zhou},
+  journal={arXiv preprint arXiv:2501.01120},
+  year={2025}
+}
 ```
