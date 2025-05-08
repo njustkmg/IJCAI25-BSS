@@ -24,11 +24,11 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-Download the CREMA-D dataset from this link: https://github.com/CheyneyComputerScience/CREMA-D
-Download the Kinetics-Sounds dataset from this link: https://github.com/cvdfoundation/kinetics-dataset
-Download the Sarcasm dataset from this link: https://github.com/feiLinX/Multi-modal-Sarcasm-Detection
-Download the Twitter15 dataset from this link: https://github.com/jefferyYu/TomBERT
-Download the NVGresutre dataset from this link: https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
+* Download the CREMA-D dataset from this link: https://github.com/CheyneyComputerScience/CREMA-D
+* Download the Kinetics-Sounds dataset from this link: https://github.com/cvdfoundation/kinetics-dataset
+* Download the Sarcasm dataset from this link: https://github.com/feiLinX/Multi-modal-Sarcasm-Detection
+* Download the Twitter15 dataset from this link: https://github.com/jefferyYu/TomBERT
+* Download the NVGresutre dataset from this link: https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
 
 The directory organization of the final data file should be as follows (task CREMA-D for an example):
 ```
