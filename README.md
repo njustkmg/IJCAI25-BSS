@@ -30,7 +30,7 @@ pip install -r requirements.txt
 * Download the Twitter15 dataset from this link: https://github.com/jefferyYu/TomBERT
 * Download the NVGresutre dataset from this link: https://research.nvidia.com/publication/2016-06_online-detection-and-classification-dynamic-hand-gestures-recurrent-3d
 
-The directory organization of the final data file should be as follows (task CREMA-D for an example):
+The directory organization of the final data file should be as follows (task CREMA-D as an example):
 ```
 ├── CREMAD/
 │   ├── annotations/
@@ -52,9 +52,9 @@ The directory organization of the final data file should be as follows (task CRE
 ```
 
 ### Training & Evaluation
-Run the following script to train the model and evaluate the results:
+Run the following commend to train the model and evaluate the results:
 ```shell
-sh src/scripts/eval.sh
+python train_CREMA.py --config configs/cream.json
 ```
 All the parameters have the same meaning as describe in our paper and you can simply config them in **src/config/config.yaml** or in command line.
 
