@@ -42,11 +42,16 @@ The directory organization of the final data file should be as follows:
 │	│	├── train.csv
 │	│	├── test.csv
 │   ├── AudioWAV/
-│  	│   ├── 1001_DFA_ANG_XX.wav
-│  	│   ├── 1001_DFA_DIS_XX.wav
-│   │   └── ...
-│   └── Image-01-FPS/
-│		├── 1001_DFA_ANG_XX/
-│		│	└──xxxx.jpg
-│		└── ...
+│	│	├── 1001_DFA_ANG_XX.wav
+│	│	├── 1001_DFA_DIS_XX.wav
+│	│	├── ...
+│   ├── Image-01-FPS/
+│	│	├── 1001_DFA_ANG_XX
+│	│	├── 1001_DFA_DIS_XX
+│	│	├── ...
+│   ├── Image-01-FPS-SE/
+│   ├── wav_pkl/
+│	│	├── 1001_DFA_ANG_XX.pkl
+│	│	├── 1001_DFA_DIS_XX.pkl
+│   ├── sound_preprocessing.py
 ```
