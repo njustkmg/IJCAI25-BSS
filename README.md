@@ -66,14 +66,6 @@ Note that CL and SPL  denote the proposed method with the heuristic scheduler an
 ## Citation
 If you find the code useful for your research, please give us a star ⭐⭐⭐ and consider citing:
 ```
-@article{guan2025balanceaware,
-  author={Zhi{-}Hao Guan and
-          Qing{-}Yuan Jiang and
-          Yang Yang},
-  title={Balance-aware Sequence Sampling Makes Multimodal Learning Better},
-  booktitle={arXiv preprint arXiv:2501.01120},
-  year={2025}
-}
 @inproceedings{guan2025balanceaware,
   author       = {Zhi{-}Hao Guan and
                   Qing{-}Yuan Jiang and
