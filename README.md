@@ -40,12 +40,11 @@ The directory organization of the final data file should be as follows:
 ├── CREMAD/
 │   ├── annotations/
 │	│	├── train.csv
-│	│	├── valid.csv
-│   │	└── test.csv
+│	│	├── test.csv
 │   ├── AudioWAV/
 │  	│   ├── 1001_DFA_ANG_XX.wav
-│  	│   ├── ...
-│   │   └── 1091_WSI_SAD_XX.wav
+│  	│   ├── 1001_DFA_DIS_XX.wav
+│   │   └── ...
 │   └── Image-01-FPS/
 │		├── 1001_DFA_ANG_XX/
 │		│	└──xxxx.jpg
