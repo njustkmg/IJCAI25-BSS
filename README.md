@@ -1,5 +1,5 @@
 # Balance-aware Sequence Sampling Makes Multimodal Learning Better
-This repo is the official implementation of _Retrieval-Balance-aware Sequence Sampling Makes Multimodal Learning Better_ accepted by IJCAI 2025. 
+This repo is the official implementation of _Balance-aware Sequence Sampling Makes Multimodal Learning Better_ accepted by IJCAI 2025. 
 
 ## Framework
 <img width="1232" alt="image" src="Figure/framework.png" />
@@ -53,7 +53,7 @@ The directory organization of the final data file should be as follows (task CRE
 ```
 
 ### Training & Evaluation
-Run the following command to train the model and evaluate the results (task Kinetics-Sounds as an example):
+Run the following command to train the model and evaluate the results (take Kinetics-Sounds as an example):
 ```shell
 cd KS
 
